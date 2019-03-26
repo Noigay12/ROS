@@ -98,19 +98,17 @@ int main(int argc, char** argv)
     float tx = 8, ty = 8;
 
     queue<Action> q;
-    q.push({1, PI/5, 0});
+    q.push({1, PI/6, 0});
     q.push({2, 0, 2});
-    q.push({1, PI/2, 0});
+    q.push({1, 3*PI/5, 0});
     q.push({2, 0, 2});
-    q.push({1, 4*PI/5, 0});
+    q.push({1, PI, 0});
     q.push({2, 0, 2});
-    q.push({1, -4*PI/5, 0});
+    q.push({1, -3*PI/5, 0});
+    q.push({2, 0, 2});
+    q.push({1, -PI/6, 0});
     q.push({2, 0, 2});
     q.push({1, -PI/2, 0});
-    q.push({2, 0, 2});
-    q.push({1, -PI/5, 0});
-    q.push({2, 0, 2});
-    q.push({1, -PI/2, 2});
 
     bool in_action = false;
     while (ros::ok()) {
