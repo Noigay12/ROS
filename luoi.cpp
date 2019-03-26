@@ -105,19 +105,13 @@ int main(int argc, char** argv)
     q.push({2, 0, 2});
     q.push({2, 0, 2});
 
-    q.push({1, PI, 0});
-    q.push({2, 0, 2});
-    q.push({2, 0, 2});
-    q.push({2, 0, 2});
-    q.push({2, 0, 2});
-
     q.push({1, -PI/2, 0});
     q.push({2, 0, 2});
     q.push({2, 0, 2});
     q.push({2, 0, 2});
     q.push({2, 0, 2});
 
-    q.push({1, 0, 0});
+    q.push({1, PI, 0});
     q.push({2, 0, 2});
     q.push({1, PI/2, 0});
     q.push({2, 0, 2});
@@ -125,7 +119,7 @@ int main(int argc, char** argv)
     q.push({2, 0, 2});
     q.push({2, 0, 2});
 
-    q.push({1, 0, 0});
+    q.push({1, PI, 0});
     q.push({2, 0, 2});
     q.push({1, -PI/2, 0});
     q.push({2, 0, 2});
@@ -133,7 +127,7 @@ int main(int argc, char** argv)
     q.push({2, 0, 2});
     q.push({2, 0, 2});
 
-    q.push({1, 0, 0});
+    q.push({1, PI, 0});
     q.push({2, 0, 2});
     q.push({1, PI/2, 0});
     q.push({2, 0, 2});
@@ -141,9 +135,21 @@ int main(int argc, char** argv)
     q.push({2, 0, 2});
     q.push({2, 0, 2});
 
-    q.push({1, 0, 0});
+    q.push({1, PI, 0});
     q.push({2, 0, 2});
     q.push({1, -PI/2, 0});
+    q.push({2, 0, 2});
+    q.push({2, 0, 2});
+    q.push({2, 0, 2});
+    q.push({2, 0, 2});
+
+    q.push({1, 0, 0});
+    q.push({2, 0, 2});
+    q.push({2, 0, 2});
+    q.push({2, 0, 2});
+    q.push({2, 0, 2});
+
+    q.push({1, PI/2, 0});
     q.push({2, 0, 2});
     q.push({1, PI, 0});
     q.push({2, 0, 2});
@@ -151,7 +157,7 @@ int main(int argc, char** argv)
     q.push({2, 0, 2});
     q.push({2, 0, 2});
 
-    q.push({1, -PI/2, 0});
+    q.push({1, PI/2, 0});
     q.push({2, 0, 2});
     q.push({1, 0, 0});
     q.push({2, 0, 2});
@@ -159,7 +165,7 @@ int main(int argc, char** argv)
     q.push({2, 0, 2});
     q.push({2, 0, 2});
 
-    q.push({1, -PI/2, 0});
+    q.push({1, PI/2, 0});
     q.push({2, 0, 2});
     q.push({1, PI, 0});
     q.push({2, 0, 2});
@@ -167,18 +173,12 @@ int main(int argc, char** argv)
     q.push({2, 0, 2});
     q.push({2, 0, 2});
     
-    q.push({1, -PI/2, 0});
+    q.push({1, PI/2, 0});
     q.push({2, 0, 2});
     q.push({1, 0, 0});
     q.push({2, 0, 2});
     q.push({2, 0, 2});
     q.push({2, 0, 2});
-    q.push({2, 0, 2});
-
-    q.push({1, PI/2, 0});
-    q.push({2, 0, 2});
-
-    q.push({1, -PI/2, 0});
     q.push({2, 0, 2});
 
     bool in_action = false;
