@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="ts1"/>
+    <node pkg="myturtle_control" type="robot_super_clean" name="go1" args="1 1"/>
+</launch>
